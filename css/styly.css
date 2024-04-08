@@ -1,0 +1,118 @@
+/* CSS Document */
+body {
+  font-family:Arial, sans-serif;
+  background-color: lightgray;
+}
+
+div#obal{
+  width: 960px;
+  align-items: center;
+  border-color:gray;
+  border-width: 1px;
+  border-style:solid;
+  margin: auto;
+  padding: 20px;
+  background-color: white;
+  color: #333;
+}
+i{
+  font-weight: bold;
+  color: rgb(4, 163, 255);
+}
+nav{
+  background-color: #222;
+  margin: -20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  font-size: 1.1em;
+  color: lightgray;
+}
+
+.nav{
+  padding: 19px;
+  text-decoration: none;
+  color: lightgray;
+}
+
+.nav:hover{
+  color: white;
+  background-color: rgb(0,153,204);
+}
+#navs{
+  background-color: rgb(0,153,204);
+}
+h1 {
+  text-align: center;
+  font-size: 400% /*Také lze použít 4em */;
+  font-weight: bold;
+  color: rgb(0,153,204);
+  text-transform: capitalize;
+  line-height: 2em;
+}
+
+h2{
+  font-size: 1.6em;
+  color: rgb(102,153,0);
+}
+
+h2, h3{
+  font-weight: 200; 
+  line-height: 2em;
+}
+
+h3{ 
+  font-size: 1.2em;
+  border-bottom: 1px dotted #333; /* Nastavení čárkovaného spodního ohraničení */
+  padding-bottom: 5px;
+}
+
+p, li {
+  line-height: 1.5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+p {
+  text-align: justify;
+}
+
+li {
+  list-style-type: square;
+  list-style-position: outside;
+  margin-left: 20px;
+}
+.poznamka{
+  border-left: 10px solid;
+  border-color: gray;
+  padding-left: 50px;
+  font-size: 90%;
+  font-style: italic;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+footer > p {
+  color: gray;
+  margin: 10px auto;
+  text-align: center;
+  font-size: 80%;
+}
+
+strong {
+  font-weight: bold;
+}
+
+
+mark{
+  background-color: rgb(129, 194, 0);
+  color: white;
+}
+abbr{
+  text-decoration: dashed;
+  text-decoration-line: underline;
+  text-decoration-color: red;
+}
+code{
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
