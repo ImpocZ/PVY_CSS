@@ -16,6 +16,7 @@ div#obal{
   color: #333;
 }
 i{
+  font-style: normal;
   font-weight: bold;
   color: rgb(4, 163, 255);
 }
