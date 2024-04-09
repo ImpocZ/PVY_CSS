@@ -47,7 +47,7 @@ h1 {
   font-size: 400% /*Také lze použít 4em */;
   font-weight: bold;
   color: rgb(0,153,204);
-  text-transform: capitalize;
+  text-transform: uppercase;
   line-height: 2em;
 }
 
